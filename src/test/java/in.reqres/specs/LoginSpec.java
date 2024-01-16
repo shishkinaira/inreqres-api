@@ -11,9 +11,7 @@ import static io.restassured.http.ContentType.JSON;
 
 public class LoginSpec {
     public static RequestSpecification successLoginRequestSpec = with()
-            .log().uri()
-            .log().method()
-            .log().body()
+            .log().all()
             .contentType(JSON);
 
     public static ResponseSpecification successLoginResponseSpec = new ResponseSpecBuilder()
@@ -23,9 +21,7 @@ public class LoginSpec {
             .build();
 
     public static RequestSpecification unsuccessLoginRequestSpec = with()
-            .log().uri()
-            .log().method()
-            .log().body()
+            .log().all()
             .contentType(JSON);
     public static ResponseSpecification unsuccessLoginResponseSpec = new ResponseSpecBuilder()
             .log(STATUS)

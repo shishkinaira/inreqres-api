@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.reqres.tests.UserUpdateTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-01-15T18:37:19" hostname="ishishkina-C02FGHA4MD6M" time="1.213">
+  <properties/>
+  <testcase name="userUpdatePutCodeTest()" classname="in.reqres.tests.UserUpdateTests" time="0.33"/>
+  <testcase name="userUpdatePatchCodeTest()" classname="in.reqres.tests.UserUpdateTests" time="0.311"/>
+  <testcase name="userPutUpdateTest()" classname="in.reqres.tests.UserUpdateTests" time="0.277"/>
+  <testcase name="userPatchUpdateTest()" classname="in.reqres.tests.UserUpdateTests" time="0.289"/>
+  <system-out><![CDATA[Request URI:	https://reqres.in/api/users/2
+Request method:	PUT
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2024-01-15T18:37:20.157Z"
+}
+Request URI:	https://reqres.in/api/users/2
+Request method:	PUT
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2024-01-15T18:37:20.481Z"
+}
+Request URI:	https://reqres.in/api/users/2
+Request method:	PUT
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2024-01-15T18:37:20.762Z"
+}
+Request URI:	https://reqres.in/api/users/2
+Request method:	PATCH
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2024-01-15T18:37:21.060Z"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

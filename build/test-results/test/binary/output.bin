@@ -1,0 +1,159 @@
+)Request URI:	https://reqres.in/api/login
+Request method:	POST
+Body:
+{
+    "email": "sydney@fife"
+}
+{
+     "error": "Missing password"
+}
+)Request URI:	https://reqres.in/api/login
+Request method:	POST
+Body:
+{
+#    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+{
+!    "token": "QpwL5tke4Pnpja7X4"
+}
+)Request URI:	https://reqres.in/api/login
+Request method:	POST
+Body:
+{
+    "email": "sydney@fife"
+}
+{
+     "error": "Missing password"
+}
+,Request URI:	https://reqres.in/api/register
+Request method:	POST
+Body:
+sydney@fife
+<html lang="en">
+	  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+
+  </head>
+	  <body>
+    <pre>Bad Request</pre>
+
+  </body>
+</html>
+,Request URI:	https://reqres.in/api/register
+Request method:	POST
+Body:
+{
+#    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+{
+    "id": 4,
+!    "token": "QpwL5tke4Pnpja7X4"
+}
+,Request URI:	https://reqres.in/api/register
+Request method:	POST
+Body:
+{
+    "email": "sydney@fife"
+}
+{
+     "error": "Missing password"
+}
+
+	+Request URI:	https://reqres.in/api/users/2
+
+	Request method:	PUT
+
+	Body:
+
+	{
+
+	    "name": "morpheus",
+
+	    "job": "zion resident"
+
+	}
+
+	{
+
+	    "name": "morpheus",
+
+	    "job": "zion resident",
+
+	,    "updatedAt": "2024-01-15T18:37:20.157Z"
+
+	}
+
++Request URI:	https://reqres.in/api/users/2
+
+Request method:	PUT
+
+Body:
+
+{
+
+    "name": "morpheus",
+
+    "job": "zion resident"
+
+}
+
+{
+
+    "name": "morpheus",
+
+    "job": "zion resident",
+
+,    "updatedAt": "2024-01-15T18:37:20.481Z"
+
+}
+
++Request URI:	https://reqres.in/api/users/2
+
+Request method:	PUT
+
+Body:
+
+{
+
+    "name": "morpheus",
+
+    "job": "zion resident"
+
+}
+
+{
+
+    "name": "morpheus",
+
+    "job": "zion resident",
+
+,    "updatedAt": "2024-01-15T18:37:20.762Z"
+
+}
+
++Request URI:	https://reqres.in/api/users/2
+
+Request method:	PATCH
+
+Body:
+
+{
+
+    "name": "morpheus",
+
+    "job": "zion resident"
+
+}
+
+{
+
+    "name": "morpheus",
+
+    "job": "zion resident",
+
+,    "updatedAt": "2024-01-15T18:37:21.060Z"
+
+}

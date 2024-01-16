@@ -7,7 +7,7 @@ import in.reqres.models.UserUpdatePutResponseModel;
 import org.junit.jupiter.api.Test;
 
 import static in.reqres.helpers.CustomAllureListener.withCustomTemplates;
-import static in.reqres.helpers.TestData.getProperty;
+import static in.reqres.helpers.TestData.getData;
 import static in.reqres.specs.UserUpdateSpec.*;
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
@@ -18,8 +18,8 @@ public class UserUpdateTests extends TestBase {
     @Test
     void userPutUpdateTest() {
         UserUpdatePutRequestModel user = new UserUpdatePutRequestModel();
-        user.setName(getProperty("name"));
-        user.setJob(getProperty("job"));
+        user.setName(getData("name"));
+        user.setJob(getData("job"));
         UserUpdatePutResponseModel loginRequest = step("Update user by Put", () ->
                 given(userPutUpdateRequestSpec)
                         .filter(withCustomTemplates())
@@ -40,8 +40,8 @@ public class UserUpdateTests extends TestBase {
     @Test
     void userPatchUpdateTest() {
         UserUpdatePatchRequestModel user = new UserUpdatePatchRequestModel();
-        user.setName(getProperty("name"));
-        user.setJob(getProperty("job"));
+        user.setName(getData("name"));
+        user.setJob(getData("job"));
         UserUpdatePatchResponseModel loginRequest = step("Update user by Patch", () ->
                 given(userPatchUpdateRequestSpec)
                         .filter(withCustomTemplates())
@@ -62,8 +62,8 @@ public class UserUpdateTests extends TestBase {
     @Test
     void userUpdatePutCodeTest() {
         UserUpdatePutRequestModel user = new UserUpdatePutRequestModel();
-        user.setName(getProperty("name"));
-        user.setJob(getProperty("job"));
+        user.setName(getData("name"));
+        user.setJob(getData("job"));
         given(userPutUpdateRequestSpec)
                 .filter(withCustomTemplates())
                 .body(user)
@@ -76,8 +76,8 @@ public class UserUpdateTests extends TestBase {
     @Test
     void userUpdatePatchCodeTest() {
         UserUpdatePutRequestModel user = new UserUpdatePutRequestModel();
-        user.setName(getProperty("name"));
-        user.setJob(getProperty("job"));
+        user.setName(getData("name"));
+        user.setJob(getData("job"));
         given(userPatchUpdateRequestSpec)
                 .filter(withCustomTemplates())
                 .body(user)

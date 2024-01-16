@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.reqres.tests.LoginTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-15T18:37:15" hostname="ishishkina-C02FGHA4MD6M" time="3.156">
+  <properties/>
+  <testcase name="unSuccessfulLoginTest()" classname="in.reqres.tests.LoginTests" time="2.53"/>
+  <testcase name="successfulLoginTest()" classname="in.reqres.tests.LoginTests" time="0.31"/>
+  <testcase name="unSuccessfulLoginCodeTest()" classname="in.reqres.tests.LoginTests" time="0.313"/>
+  <system-out><![CDATA[Request URI:	https://reqres.in/api/login
+Request method:	POST
+Body:
+{
+    "email": "sydney@fife"
+}
+{
+    "error": "Missing password"
+}
+Request URI:	https://reqres.in/api/login
+Request method:	POST
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+Request URI:	https://reqres.in/api/login
+Request method:	POST
+Body:
+{
+    "email": "sydney@fife"
+}
+{
+    "error": "Missing password"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -11,9 +11,7 @@ import static io.restassured.http.ContentType.JSON;
 
 public class RegistrationSpec {
     public static RequestSpecification sucRegistrationRequestSpec = with()
-            .log().uri()
-            .log().method()
-            .log().body()
+            .log().all()
             .contentType(JSON);
 
     public static ResponseSpecification sucRegistrationResponseSpec = new ResponseSpecBuilder()
@@ -23,9 +21,7 @@ public class RegistrationSpec {
             .build();
 
     public static RequestSpecification unsRegistrationRequestSpec = with()
-            .log().uri()
-            .log().method()
-            .log().body()
+            .log().all()
             .contentType(JSON);
 
     public static ResponseSpecification unsucRegistrationResponseSpec = new ResponseSpecBuilder()

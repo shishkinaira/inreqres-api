@@ -6,7 +6,7 @@ import in.reqres.models.RegistrationResponseUnsuccessfulModel;
 import org.junit.jupiter.api.Test;
 
 import static in.reqres.helpers.CustomAllureListener.withCustomTemplates;
-import static in.reqres.helpers.TestData.getProperty;
+import static in.reqres.helpers.TestData.getData;
 import static in.reqres.specs.RegistrationSpec.*;
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RegistrationTests extends TestBase {
     @Test
     void successfulRegistrationTest() {
-        CredentialsModel credentials = new CredentialsModel(getProperty("email"),getProperty("password"));
+        CredentialsModel credentials = new CredentialsModel(getData("email"), getData("password"));
         RegistrationResponseSuccessfulModel registrationResponse = step("Make request", () ->
                 given(sucRegistrationRequestSpec)
                         .filter(withCustomTemplates())
@@ -54,7 +54,7 @@ public class RegistrationTests extends TestBase {
         step("Check response is 400", () ->
                 given(unsRegistrationRequestSpec)
                         .filter(withCustomTemplates())
-                        .body(getProperty("email400"))
+                        .body(getData("email400"))
                         .when()
                         .post("/api/register")
                         .then()

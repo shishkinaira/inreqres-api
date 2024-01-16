@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.reqres.tests.RegistrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-15T18:37:18" hostname="ishishkina-C02FGHA4MD6M" time="1.078">
+  <properties/>
+  <testcase name="unSuccessfulRegistrationCodeTest()" classname="in.reqres.tests.RegistrationTests" time="0.465"/>
+  <testcase name="successfulRegistrationTest()" classname="in.reqres.tests.RegistrationTests" time="0.322"/>
+  <testcase name="unSuccessfulRegistrationTest()" classname="in.reqres.tests.RegistrationTests" time="0.285"/>
+  <system-out><![CDATA[Request URI:	https://reqres.in/api/register
+Request method:	POST
+Body:
+sydney@fife
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Bad Request</pre>
+  </body>
+</html>
+Request URI:	https://reqres.in/api/register
+Request method:	POST
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+Request URI:	https://reqres.in/api/register
+Request method:	POST
+Body:
+{
+    "email": "sydney@fife"
+}
+{
+    "error": "Missing password"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7245593e-5296-4165-b308-56a402e373fa" name="Changes" comment="16.01.2024 fixes after review">
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/00ed58d6-a051-4582-a3e8-a1db12b8089e-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/0101285f-955a-4206-9f1a-488de2c13788-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/01da4cda-f2c4-44c5-8e08-56e4a28d2887-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/02a1fd5e-25ff-4cf5-8e3e-92e023c43f0c-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/0386545d-dd68-4558-9f2c-c0d51a910626-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/089a8283-6f4a-4fd5-abd1-a964189291ad-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/08d00d61-375c-423f-8531-733d97d59307-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/09f65132-a8cf-4803-8809-dbe2fe3665c1-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/0ce9badc-f5b4-4494-adf5-127ccd42d603-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/0ed742c0-e5f4-4a2f-bf36-1cf1131a1e5c-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/17fc2732-527c-470a-83fb-44c8e4262dad-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/1a69c3bd-02c5-4321-8376-533d1f65dce9-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/1eb33912-b0dc-4607-b7b7-d81b9e449095-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/2ac0f7b6-57f4-41e6-9b75-ea058d032b84-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/2d76060c-63e1-44d1-87cc-7efc50521e23-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/2fb5963d-ec62-41fe-9e6e-a66bdb089e2c-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/319a61ce-8702-4b86-9f06-67e4034a9595-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/32ef19bd-bb45-4367-bcae-3e575e3a9958-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/33084a45-e031-4e45-ac82-82729471d835-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/34bcaf6a-8cac-4718-bde7-cddc8223e369-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/3739f522-99c7-400e-91fe-31cefd953f0f-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/3e581f2b-c5c4-424f-91a6-d0d770015873-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/41cf735d-d8f4-49d0-acd8-aadacd0e1164-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/4357d4d7-e98f-4165-815d-7ac7933c1f96-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/480a08a5-bad7-4598-a0bc-fc2721f37507-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/52ce8243-1210-40d9-b96d-cc8292ebaf0e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/52fe200e-f69f-433c-b386-4b1a694bddd7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/536f9964-13f0-40d9-9119-d679d74fb1c4-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/595e85b5-953a-4432-b889-89e59205c604-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/5aa79260-c6ef-4c36-8636-5dd8114216be-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/5c60a231-27fb-4148-920d-602ba8fbf7c0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/5d51b137-5131-4a92-a5dd-4c232aa92b32-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/5d65e573-5741-4bd8-b7ae-5d1392fa0c6e-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/5e0587d2-cdd3-4734-838f-6ad28323ca95-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/60ac509a-be08-439b-8775-165ccdad39df-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/65353a39-9364-4b53-9765-0a9837a7b2b9-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/677947d3-baf5-40ae-8674-8da987f34284-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/69043df1-24e7-4800-ad54-5f9b1b16bf59-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/74a473eb-335e-45de-88df-cb9844701af7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/7dc404a0-ca65-4823-a422-de8b3b1ae064-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/7e688e8c-4e1b-4c4d-bbf0-18ec982fd414-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/7f25531a-54e1-43db-8989-2c5c20f2cead-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/7f39a12d-250b-4d61-9c92-0179ec6fcabb-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/7f4c51b6-c38b-4bc8-90ec-583d1ecaa4d2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/82064601-33c2-4613-92eb-9d669cb97d18-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/84478efb-8236-496f-8b36-ccf95061a01a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/85344924-284e-4ccf-ac99-0873507eda6f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/861e4548-f0b8-42d8-b464-4102b3cf7fd8-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/8749ff2b-72e0-46dc-bedd-6fb36c5cc218-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/890771b6-5cf0-47fb-b063-57b18a5631ca-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/8ecae45f-c891-4d22-8430-065dc19d25c0-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/8ed37d2b-7ec8-4d48-bf68-640fa0f0b092-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/9cf29bda-773a-4576-8e64-be72ba836592-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/9daba141-e892-43f4-9272-b9e5fcbff5f2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/9db514a2-2a6a-4e72-a741-a1f8120d4d53-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/a349eb72-8475-4ed8-ac49-47c06df3ecd3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/a3a39ba4-ea07-41f5-81c9-f52b4619240f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/a5782f96-1e1d-450c-88f8-8797e74fb956-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/ab85fe8e-d139-498b-aaf4-50f6a9833c67-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/ac5f66b8-1373-4f0e-bdd5-4c14cf00e640-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/bb925658-264f-447a-be82-f288830e44f5-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/beb41a23-0196-4319-8ce9-b28ab9bcf781-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/c02bf7dc-eb54-454e-b088-d68756451eee-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/c2307ddb-3634-4a6e-9003-d330ba58fc7b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/c6552207-c67a-41b6-98e9-8c09f7a16ed9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/d00e3550-12ed-4f4c-b6eb-ba817928690d-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/d76d4f28-feb0-4fc3-a166-190eb2b954d2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/dc4160cb-c43b-4200-8a6e-8b6fec2c3895-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/e0a91a73-ebc0-4ccf-a552-88258de9ecd5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/e240f63d-9336-4d3b-a848-8fbf7241521f-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/e405f8c8-3d37-4f51-9015-7549837e9ca0-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/e61eecd9-3a4b-4694-a344-0e9c5f27660c-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/e660a72b-0c6f-4f8c-9bc8-ccd562099695-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/eaf3af83-68a1-452f-ad4c-672e7a0f61ff-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/ee512cd5-dcae-466f-8c5a-438fe35ce198-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/executor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/f0b51435-df1a-407c-8e80-2487292a39fe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/f1258457-d753-41ff-b8bc-9c48c1050dbe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/f57b7567-a490-4708-89b7-01a13bac4b60-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/f6d86bd5-1b79-4329-85e6-f152036980c4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/f7524a61-8da5-42c5-b85f-e737166f1271-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/f818ff9d-a063-4a25-8674-290538167df8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/f873f759-b3e0-4696-8f4b-75920eccadd9-attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/fa649feb-7803-47cf-b149-b667340624a1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/fa7c515e-2297-4e7c-b11c-0da727ecd7e5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/faa0835d-59dc-41fd-a355-f218a3024fad-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/allure-results/fb42e0fc-3164-4539-944f-4e5f9541beaf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/helpers/CustomAllureListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/helpers/TestData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/CredentialsModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/LoginRequestSuccessfulModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/LoginRequestUnsuccessfulModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/LoginResponseSuccessfulModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/LoginResponseUnsuccessfulModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/RegistrationRequestSuccessfulModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/RegistrationRequestUnsuccessfulModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/RegistrationResponseSuccessfulModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/RegistrationResponseUnsuccessfulModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/UserUpdatePatchRequestModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/UserUpdatePatchResponseModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/UserUpdatePutRequestModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/models/UserUpdatePutResponseModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/specs/LoginSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/specs/RegistrationSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/specs/UserUpdateSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/tests/LoginTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/tests/RegistrationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/tests/TestBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/in/reqres/tests/UserUpdateTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/in.reqres.tests.LoginTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/in.reqres.tests.RegistrationTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/in.reqres.tests.UserUpdateTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/in.reqres.tests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/test/properties/base.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/test/tpl/request.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/test/tpl/response.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-in.reqres.tests.LoginTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-in.reqres.tests.RegistrationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-in.reqres.tests.UserUpdateTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitignore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in.reqres/helpers/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in.reqres/helpers/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in.reqres/specs/LoginSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in.reqres/specs/LoginSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in.reqres/specs/RegistrationSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in.reqres/specs/RegistrationSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in.reqres/specs/UserUpdateSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in.reqres/specs/UserUpdateSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in.reqres/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in.reqres/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in.reqres/tests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in.reqres/tests/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in.reqres/tests/UserUpdateTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in.reqres/tests/UserUpdateTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2W5VQ8bF1bCu0yjWXbd4F3lhNKk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tests in 'in.reqres.tests'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;in.reqres.tests.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'in.reqres.tests'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7245593e-5296-4165-b308-56a402e373fa" name="Changes" comment="" />
+      <created>1696022408424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696022408424</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="16.01.2024 fixes after review" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.01.2024 fixes after review" />
+  </component>
+</project>

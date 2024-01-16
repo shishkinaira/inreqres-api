@@ -53,12 +53,6 @@ ____
 <a href="https://jenkins.autotests.cloud/job/inreqres-api_by_ishishkina///"><img src="images/screen/jenkins_build.png" alt="Jenkins" width="950"/></a>  
 </p>
 
-
-### **Параметры сборки в Jenkins:**
-
-- *browser (браузер, по умолчанию chrome)*
-- *browserVersion (версия браузера, по умолчанию 100.0)*
-
 <a id="console"></a>
 ## Команды для запуска из терминала
 ___

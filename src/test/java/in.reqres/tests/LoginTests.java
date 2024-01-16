@@ -7,7 +7,7 @@ import in.reqres.models.LoginResponseUnsuccessfulModel;
 import org.junit.jupiter.api.Test;
 
 import static in.reqres.helpers.CustomAllureListener.withCustomTemplates;
-import static in.reqres.helpers.TestData.getProperty;
+import static in.reqres.helpers.TestData.getData;
 import static in.reqres.specs.LoginSpec.*;
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class LoginTests extends TestBase {
     @Test
     void successfulLoginTest() {
-        CredentialsModel credentials = new CredentialsModel(getProperty("email"),getProperty("password"));
+        CredentialsModel credentials = new CredentialsModel(getData("email"), getData("password"));
         LoginResponseSuccessfulModel loginRequest = step("Login by existing user", () ->
                 given(successLoginRequestSpec)
                         .filter(withCustomTemplates())
@@ -35,7 +35,7 @@ public class LoginTests extends TestBase {
     @Test
     void unSuccessfulLoginTest() {
         LoginRequestUnsuccessfulModel requestEmail = new LoginRequestUnsuccessfulModel();
-        requestEmail.setEmail(getProperty("email400"));
+        requestEmail.setEmail(getData("email400"));
         LoginResponseUnsuccessfulModel unLoginResponse = step("Login without password", () ->
                 given(unsuccessLoginRequestSpec)
                         .filter(withCustomTemplates())
@@ -54,7 +54,7 @@ public class LoginTests extends TestBase {
     @Test
     void unSuccessfulLoginCodeTest() {
         LoginRequestUnsuccessfulModel requestEmail = new LoginRequestUnsuccessfulModel();
-        requestEmail.setEmail(getProperty("email400"));
+        requestEmail.setEmail(getData("email400"));
         step("Login without password. Code checking", () ->
                 given(unsuccessLoginRequestSpec)
                         .filter(withCustomTemplates())

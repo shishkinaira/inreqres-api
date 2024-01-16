@@ -11,9 +11,7 @@ import static io.restassured.http.ContentType.JSON;
 
 public class UserUpdateSpec {
     public static RequestSpecification userPutUpdateRequestSpec = with()
-            .log().uri()
-            .log().method()
-            .log().body()
+            .log().all()
             .contentType(JSON);
 
     public static ResponseSpecification userPutUpdateResponseSpec = new ResponseSpecBuilder()
@@ -22,9 +20,7 @@ public class UserUpdateSpec {
             .expectStatusCode(200)
             .build();
     public static RequestSpecification userPatchUpdateRequestSpec = with()
-            .log().uri()
-            .log().method()
-            .log().body()
+            .log().all()
             .contentType(JSON);
 
     public static ResponseSpecification userPatchUpdateResponseSpec = new ResponseSpecBuilder()
