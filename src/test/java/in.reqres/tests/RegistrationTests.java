@@ -3,6 +3,7 @@ import in.reqres.models.CredentialsModel;
 import in.reqres.models.RegistrationRequestUnsuccessfulModel;
 import in.reqres.models.RegistrationResponseSuccessfulModel;
 import in.reqres.models.RegistrationResponseUnsuccessfulModel;
+import io.restassured.response.ValidatableResponse;
 import org.junit.jupiter.api.Test;
 
 import static in.reqres.helpers.CustomAllureListener.withCustomTemplates;
@@ -17,13 +18,13 @@ public class RegistrationTests extends TestBase {
     void successfulRegistrationTest() {
         CredentialsModel credentials = new CredentialsModel(getData("email"), getData("password"));
         RegistrationResponseSuccessfulModel registrationResponse = step("Make request", () ->
-                given(sucRegistrationRequestSpec)
+                given(successRegistrationRequestSpec)
                         .filter(withCustomTemplates())
                         .body(credentials)
                         .when()
                         .post("/api/register")
                         .then()
-                        .spec(sucRegistrationResponseSpec)
+                        .spec(successRegistrationResponseSpec)
                         .extract().as(RegistrationResponseSuccessfulModel.class));
 
         step("Check response token", () ->
@@ -34,31 +35,32 @@ public class RegistrationTests extends TestBase {
     void unSuccessfulRegistrationTest() {
         RegistrationRequestUnsuccessfulModel requestEmail = new RegistrationRequestUnsuccessfulModel();
         requestEmail.setEmail("sydney@fife");
-        RegistrationResponseUnsuccessfulModel unRegistrationResponse = step("Make request", () ->
-                given(unsRegistrationRequestSpec)
+        RegistrationResponseUnsuccessfulModel unsuccessRegistrationResponse = step("Make request", () ->
+                given(unsuccessRegistrationRequestSpec)
                         .filter(withCustomTemplates())
                         .body(requestEmail)
                         .when()
                         .post("/api/register")
                         .then()
-                        .spec(unsucRegistrationResponseSpec)
+                        .spec(unsuccessRegistrationResponseSpec)
                         .extract().as(RegistrationResponseUnsuccessfulModel.class));
 
         step("Check response error text", () ->
-                assertEquals("Missing password", unRegistrationResponse.getError()));
+                assertEquals("Missing password", unsuccessRegistrationResponse.getError()));
     }
 
     @Test
-    void unSuccessfulRegistrationCodeTest() {
+    void unsuccessfulRegistrationCodeTest() {
         RegistrationRequestUnsuccessfulModel requestEmail = new RegistrationRequestUnsuccessfulModel();
-        step("Check response is 400", () ->
-                given(unsRegistrationRequestSpec)
+        requestEmail.setEmail("emailcode400");
+        ValidatableResponse unsuccessRegistrationResponse = step("Check response is 400", () ->
+                given(unsuccessRegistrationRequestSpec)
                         .filter(withCustomTemplates())
-                        .body(getData("email400"))
+                        .body(requestEmail)
                         .when()
                         .post("/api/register")
                         .then()
-                        .spec(unsucRegistrationResponse400Spec));
+                        .statusCode(400));
     }
 }
 

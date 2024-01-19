@@ -1,14 +1,29 @@
-)Request URI:	https://reqres.in/api/login
 Request method:	POST
+)Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+"				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
 Body:
 {
     "email": "sydney@fife"
 }
-{
-     "error": "Missing password"
-}
-)Request URI:	https://reqres.in/api/login
 Request method:	POST
+)Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+"				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
 Body:
 {
 #    "email": "eve.holt@reqres.in",
@@ -17,8 +32,17 @@
 {
 !    "token": "QpwL5tke4Pnpja7X4"
 }
-)Request URI:	https://reqres.in/api/login
 Request method:	POST
+)Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+"				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
 Body:
 {
     "email": "sydney@fife"
@@ -26,34 +50,52 @@
 {
      "error": "Missing password"
 }
-,Request URI:	https://reqres.in/api/register
 Request method:	POST
+,Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+"				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
 Body:
-sydney@fife
-<html lang="en">
-	  <head>
-    <meta charset="utf-8"/>
-    <title>Error</title>
-
-  </head>
-	  <body>
-    <pre>Bad Request</pre>
-
-  </body>
-</html>
-,Request URI:	https://reqres.in/api/register
+{
+#    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+{
+    "id": 4,
+!    "token": "QpwL5tke4Pnpja7X4"
+}
 Request method:	POST
+,Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+"				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
 Body:
 {
-#    "email": "eve.holt@reqres.in",
-    "password": "pistol"
+    "email": "emailcode400"
 }
-{
-    "id": 4,
-!    "token": "QpwL5tke4Pnpja7X4"
-}
-,Request URI:	https://reqres.in/api/register
 Request method:	POST
+,Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+"				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
 Body:
 {
     "email": "sydney@fife"
@@ -62,9 +104,27 @@
      "error": "Missing password"
 }
 
+	Request method:	PUT
+
 	+Request URI:	https://reqres.in/api/users/2
 
-	Request method:	PUT
+	Proxy:			<none>
+
+	Request params:	<none>
+
+	Query params:	<none>
+
+	Form params:	<none>
+
+	Path params:	<none>
+
+	Headers:		Accept=*/*
+
+	"				Content-Type=application/json
+
+	Cookies:		<none>
+
+	Multiparts:		<none>
 
 	Body:
 
@@ -82,13 +142,31 @@
 
 	    "job": "zion resident",
 
-	,    "updatedAt": "2024-01-15T18:37:20.157Z"
+	,    "updatedAt": "2024-01-19T18:42:39.746Z"
 
 	}
 
+Request method:	PUT
+
 +Request URI:	https://reqres.in/api/users/2
 
-Request method:	PUT
+Proxy:			<none>
+
+Request params:	<none>
+
+Query params:	<none>
+
+Form params:	<none>
+
+Path params:	<none>
+
+Headers:		Accept=*/*
+
+"				Content-Type=application/json
+
+Cookies:		<none>
+
+Multiparts:		<none>
 
 Body:
 
@@ -106,13 +184,31 @@
 
     "job": "zion resident",
 
-,    "updatedAt": "2024-01-15T18:37:20.481Z"
+,    "updatedAt": "2024-01-19T18:42:40.046Z"
 
 }
 
+Request method:	PUT
+
 +Request URI:	https://reqres.in/api/users/2
 
-Request method:	PUT
+Proxy:			<none>
+
+Request params:	<none>
+
+Query params:	<none>
+
+Form params:	<none>
+
+Path params:	<none>
+
+Headers:		Accept=*/*
+
+"				Content-Type=application/json
+
+Cookies:		<none>
+
+Multiparts:		<none>
 
 Body:
 
@@ -130,13 +226,31 @@
 
     "job": "zion resident",
 
-,    "updatedAt": "2024-01-15T18:37:20.762Z"
+,    "updatedAt": "2024-01-19T18:42:40.334Z"
 
 }
 
+Request method:	PATCH
+
 +Request URI:	https://reqres.in/api/users/2
 
-Request method:	PATCH
+Proxy:			<none>
+
+Request params:	<none>
+
+Query params:	<none>
+
+Form params:	<none>
+
+Path params:	<none>
+
+Headers:		Accept=*/*
+
+"				Content-Type=application/json
+
+Cookies:		<none>
+
+Multiparts:		<none>
 
 Body:
 
@@ -154,6 +268,6 @@
 
     "job": "zion resident",
 
-,    "updatedAt": "2024-01-15T18:37:21.060Z"
+,    "updatedAt": "2024-01-19T18:42:40.618Z"
 
 }

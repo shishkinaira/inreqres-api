@@ -4,6 +4,7 @@ import in.reqres.models.CredentialsModel;
 import in.reqres.models.LoginRequestUnsuccessfulModel;
 import in.reqres.models.LoginResponseSuccessfulModel;
 import in.reqres.models.LoginResponseUnsuccessfulModel;
+import io.restassured.response.ValidatableResponse;
 import org.junit.jupiter.api.Test;
 
 import static in.reqres.helpers.CustomAllureListener.withCustomTemplates;
@@ -19,13 +20,13 @@ public class LoginTests extends TestBase {
     void successfulLoginTest() {
         CredentialsModel credentials = new CredentialsModel(getData("email"), getData("password"));
         LoginResponseSuccessfulModel loginRequest = step("Login by existing user", () ->
-                given(successLoginRequestSpec)
+                given(LoginRequestSpec)
                         .filter(withCustomTemplates())
                         .body(credentials)
                         .when()
                         .post("/api/login")
                         .then()
-                        .spec(successLoginResponseSpec)
+                        .spec(LoginResponseSpec)
                         .extract().as(LoginResponseSuccessfulModel.class));
 
         step("Check response token", () ->
@@ -33,36 +34,36 @@ public class LoginTests extends TestBase {
     }
 
     @Test
-    void unSuccessfulLoginTest() {
+    void unsuccessfulLoginTest() {
         LoginRequestUnsuccessfulModel requestEmail = new LoginRequestUnsuccessfulModel();
         requestEmail.setEmail(getData("email400"));
-        LoginResponseUnsuccessfulModel unLoginResponse = step("Login without password", () ->
-                given(unsuccessLoginRequestSpec)
+        LoginResponseUnsuccessfulModel unsuccessfullLoginResponse = step("Login without password", () ->
+                given(LoginRequestSpec)
                         .filter(withCustomTemplates())
                         .contentType(JSON)
                         .body(requestEmail)
                         .when()
                         .post("/api/login")
                         .then()
-                        .spec(unsuccessLoginResponseSpec)
+                        .spec(LoginResponseSpec)
                         .extract().as(LoginResponseUnsuccessfulModel.class));
 
         step("Check response error text", () ->
-                assertEquals("Missing password", unLoginResponse.getError()));
+                assertEquals("Missing password", unsuccessfullLoginResponse.getError()));
     }
 
     @Test
-    void unSuccessfulLoginCodeTest() {
+    void unsuccessfulLoginCodeTest() {
         LoginRequestUnsuccessfulModel requestEmail = new LoginRequestUnsuccessfulModel();
         requestEmail.setEmail(getData("email400"));
-        step("Login without password. Code checking", () ->
-                given(unsuccessLoginRequestSpec)
+        ValidatableResponse unsuccessfullLoginResponse = step("Login without password. Code checking", () ->
+                given(LoginRequestSpec)
                         .filter(withCustomTemplates())
                         .contentType(JSON)
                         .body(requestEmail)
                         .when()
                         .post("/api/login")
                         .then()
-                        .spec(unsuccessLoginResponseSpec));
+                        .statusCode(400));
     }
 }

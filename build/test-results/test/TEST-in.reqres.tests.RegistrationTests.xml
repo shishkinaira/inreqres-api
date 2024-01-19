@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="in.reqres.tests.RegistrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-15T18:37:18" hostname="ishishkina-C02FGHA4MD6M" time="1.078">
+<testsuite name="in.reqres.tests.RegistrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-19T18:42:38" hostname="ishishkina-C02FGHA4MD6M" time="0.878">
   <properties/>
-  <testcase name="unSuccessfulRegistrationCodeTest()" classname="in.reqres.tests.RegistrationTests" time="0.465"/>
-  <testcase name="successfulRegistrationTest()" classname="in.reqres.tests.RegistrationTests" time="0.322"/>
-  <testcase name="unSuccessfulRegistrationTest()" classname="in.reqres.tests.RegistrationTests" time="0.285"/>
-  <system-out><![CDATA[Request URI:	https://reqres.in/api/register
-Request method:	POST
-Body:
-sydney@fife
-<html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Error</title>
-  </head>
-  <body>
-    <pre>Bad Request</pre>
-  </body>
-</html>
+  <testcase name="successfulRegistrationTest()" classname="in.reqres.tests.RegistrationTests" time="0.299"/>
+  <testcase name="unsuccessfulRegistrationCodeTest()" classname="in.reqres.tests.RegistrationTests" time="0.296"/>
+  <testcase name="unSuccessfulRegistrationTest()" classname="in.reqres.tests.RegistrationTests" time="0.279"/>
+  <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/register
-Request method:	POST
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
 Body:
 {
     "email": "eve.holt@reqres.in",
@@ -28,8 +24,32 @@ Body:
     "id": 4,
     "token": "QpwL5tke4Pnpja7X4"
 }
-Request URI:	https://reqres.in/api/register
 Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "emailcode400"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
 Body:
 {
     "email": "sydney@fife"

@@ -10,27 +10,22 @@ import static io.restassured.filter.log.LogDetail.STATUS;
 import static io.restassured.http.ContentType.JSON;
 
 public class RegistrationSpec {
-    public static RequestSpecification sucRegistrationRequestSpec = with()
+    public static RequestSpecification successRegistrationRequestSpec = with()
             .log().all()
             .contentType(JSON);
 
-    public static ResponseSpecification sucRegistrationResponseSpec = new ResponseSpecBuilder()
+    public static ResponseSpecification successRegistrationResponseSpec = new ResponseSpecBuilder()
             .log(STATUS)
             .log(BODY)
             .expectStatusCode(200)
             .build();
 
-    public static RequestSpecification unsRegistrationRequestSpec = with()
+    public static RequestSpecification unsuccessRegistrationRequestSpec = with()
             .log().all()
             .contentType(JSON);
 
-    public static ResponseSpecification unsucRegistrationResponseSpec = new ResponseSpecBuilder()
+    public static ResponseSpecification unsuccessRegistrationResponseSpec = new ResponseSpecBuilder()
             .log(STATUS)
             .log(BODY)
-            .build();
-    public static ResponseSpecification unsucRegistrationResponse400Spec = new ResponseSpecBuilder()
-            .log(STATUS)
-            .log(BODY)
-            .expectStatusCode(400)
             .build();
 }
