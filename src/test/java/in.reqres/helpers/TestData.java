@@ -4,8 +4,10 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+
 public class TestData {
     protected static Properties PROPERTIES;
+
     static {
         try (FileInputStream fileInputStream = new FileInputStream("src/test/resources/properties/base.properties")) {
             PROPERTIES = new Properties();
@@ -18,4 +20,6 @@ public class TestData {
     }
 
     public static String getData(String key) {
-        return PROPERTIES.getProperty(key); } }
+        return PROPERTIES.getProperty(key);
+    }
+}

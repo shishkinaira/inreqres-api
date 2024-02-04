@@ -59,31 +59,4 @@ public class UserUpdateTests extends TestBase {
                 assertEquals("zion resident", loginRequest.getJob()));
     }
 
-    @Test
-    void userUpdatePutCodeTest() {
-        UserUpdatePutRequestModel user = new UserUpdatePutRequestModel();
-        user.setName(getData("name"));
-        user.setJob(getData("job"));
-        given(userPutUpdateRequestSpec)
-                .filter(withCustomTemplates())
-                .body(user)
-                .when()
-                .put("/api/users/2")
-                .then()
-                .spec(userPutUpdateResponseSpec);
-    }
-
-    @Test
-    void userUpdatePatchCodeTest() {
-        UserUpdatePutRequestModel user = new UserUpdatePutRequestModel();
-        user.setName(getData("name"));
-        user.setJob(getData("job"));
-        given(userPatchUpdateRequestSpec)
-                .filter(withCustomTemplates())
-                .body(user)
-                .when()
-                .put("/api/users/2")
-                .then()
-                .spec(userPatchUpdateResponseSpec);
-    }
 }

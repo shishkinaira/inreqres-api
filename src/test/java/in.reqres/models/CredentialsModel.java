@@ -5,6 +5,6 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class CredentialsModel{
+public class CredentialsModel {
     String email, password;
 }

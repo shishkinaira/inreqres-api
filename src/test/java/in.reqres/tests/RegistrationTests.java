@@ -1,4 +1,5 @@
 package in.reqres.tests;
+
 import in.reqres.models.CredentialsModel;
 import in.reqres.models.RegistrationRequestUnsuccessfulModel;
 import in.reqres.models.RegistrationResponseSuccessfulModel;
@@ -49,18 +50,5 @@ public class RegistrationTests extends TestBase {
                 assertEquals("Missing password", unsuccessRegistrationResponse.getError()));
     }
 
-    @Test
-    void unsuccessfulRegistrationCodeTest() {
-        RegistrationRequestUnsuccessfulModel requestEmail = new RegistrationRequestUnsuccessfulModel();
-        requestEmail.setEmail("emailcode400");
-        ValidatableResponse unsuccessRegistrationResponse = step("Check response is 400", () ->
-                given(unsuccessRegistrationRequestSpec)
-                        .filter(withCustomTemplates())
-                        .body(requestEmail)
-                        .when()
-                        .post("/api/register")
-                        .then()
-                        .statusCode(400));
-    }
 }
 

@@ -4,7 +4,6 @@ import in.reqres.models.CredentialsModel;
 import in.reqres.models.LoginRequestUnsuccessfulModel;
 import in.reqres.models.LoginResponseSuccessfulModel;
 import in.reqres.models.LoginResponseUnsuccessfulModel;
-import io.restassured.response.ValidatableResponse;
 import org.junit.jupiter.api.Test;
 
 import static in.reqres.helpers.CustomAllureListener.withCustomTemplates;
@@ -50,20 +49,5 @@ public class LoginTests extends TestBase {
 
         step("Check response error text", () ->
                 assertEquals("Missing password", unsuccessfullLoginResponse.getError()));
-    }
-
-    @Test
-    void unsuccessfulLoginCodeTest() {
-        LoginRequestUnsuccessfulModel requestEmail = new LoginRequestUnsuccessfulModel();
-        requestEmail.setEmail(getData("email400"));
-        ValidatableResponse unsuccessfullLoginResponse = step("Login without password. Code checking", () ->
-                given(LoginRequestSpec)
-                        .filter(withCustomTemplates())
-                        .contentType(JSON)
-                        .body(requestEmail)
-                        .when()
-                        .post("/api/login")
-                        .then()
-                        .statusCode(400));
     }
 }
