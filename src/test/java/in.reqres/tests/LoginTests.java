@@ -6,7 +6,6 @@ import in.reqres.models.LoginResponseSuccessfulModel;
 import in.reqres.models.LoginResponseUnsuccessfulModel;
 import org.junit.jupiter.api.Test;
 
-import static in.reqres.helpers.CustomAllureListener.withCustomTemplates;
 import static in.reqres.helpers.TestData.getData;
 import static in.reqres.specs.LoginSpec.*;
 import static io.qameta.allure.Allure.step;
@@ -20,7 +19,6 @@ public class LoginTests extends TestBase {
         CredentialsModel credentials = new CredentialsModel(getData("email"), getData("password"));
         LoginResponseSuccessfulModel loginRequest = step("Login by existing user", () ->
                 given(LoginRequestSpec)
-                        .filter(withCustomTemplates())
                         .body(credentials)
                         .when()
                         .post("/api/login")
@@ -38,7 +36,6 @@ public class LoginTests extends TestBase {
         requestEmail.setEmail(getData("email400"));
         LoginResponseUnsuccessfulModel unsuccessfullLoginResponse = step("Login without password", () ->
                 given(LoginRequestSpec)
-                        .filter(withCustomTemplates())
                         .contentType(JSON)
                         .body(requestEmail)
                         .when()

@@ -22,7 +22,6 @@ public class UserUpdateTests extends TestBase {
         user.setJob(getData("job"));
         UserUpdatePutResponseModel loginRequest = step("Update user by Put", () ->
                 given(userPutUpdateRequestSpec)
-                        .filter(withCustomTemplates())
                         .body(user)
                         .when()
                         .put("/api/users/2")
@@ -44,7 +43,6 @@ public class UserUpdateTests extends TestBase {
         user.setJob(getData("job"));
         UserUpdatePatchResponseModel loginRequest = step("Update user by Patch", () ->
                 given(userPatchUpdateRequestSpec)
-                        .filter(withCustomTemplates())
                         .body(user)
                         .when()
                         .patch("/api/users/2")

@@ -20,7 +20,6 @@ public class RegistrationTests extends TestBase {
         CredentialsModel credentials = new CredentialsModel(getData("email"), getData("password"));
         RegistrationResponseSuccessfulModel registrationResponse = step("Make request", () ->
                 given(successRegistrationRequestSpec)
-                        .filter(withCustomTemplates())
                         .body(credentials)
                         .when()
                         .post("/api/register")
@@ -38,7 +37,6 @@ public class RegistrationTests extends TestBase {
         requestEmail.setEmail("sydney@fife");
         RegistrationResponseUnsuccessfulModel unsuccessRegistrationResponse = step("Make request", () ->
                 given(unsuccessRegistrationRequestSpec)
-                        .filter(withCustomTemplates())
                         .body(requestEmail)
                         .when()
                         .post("/api/register")
