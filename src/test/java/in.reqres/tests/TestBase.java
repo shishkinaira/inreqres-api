@@ -9,7 +9,6 @@ public class TestBase {
     @BeforeAll
     static void setup() {
 
-        Configuration.baseUrl = System.getProperty("baseUrl", "https://reqres.in/");
-        //RestAssured.baseURI = "https://reqres.in/";
+        RestAssured.baseURI = System.getProperty("baseUrl", "https://reqres.in/");
     }
 }
